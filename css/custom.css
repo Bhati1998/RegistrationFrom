@@ -1,0 +1,80 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+#grid_container {
+    width: 80%;
+    min-height: 460px;
+    margin: 50px auto 30px;
+    background: #fff;
+    padding: 50px;
+}
+
+#grid_containerContact {
+    width: 60%;
+    min-height: 460px;
+    margin: 50px auto 30px;
+    background: #fff;
+    padding: 50px;
+}
+
+h1.gridHeadingMain{
+    text-align: center;
+    margin: 120px 0 0 0;
+    padding: 10px 0;
+    font-size: 40px;
+    line-height: 30px;
+}
+
+h1.gridHeadingMainAbout{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    padding: 10px 0;
+    font-size: 40px;
+    line-height: 30px;
+}
+
+.paddingZeroCls{
+    padding:0px;
+}
+
+.borderNone{
+    border: none !important;
+}
+
+.displayFLexCls{
+    display: flex;
+}
+
+.gridTitle{
+    font-size: 30px;
+    color: #f12976;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.knowMoreBtnCard{
+    background: #f1227a;
+    border: #b40c53 solid 1px;
+    padding: 12px 15px;
+    font-size: 16px;
+}
+
+.knowMoreBtnCard:hover{
+    background: #bb175e;
+    border: #850c3e solid 1px;
+    padding: 12px 15px;
+    font-size: 16px;
+}
+
+.gridTitlecard{
+    font-size: 25px;
+    color: #333;
+    font-weight: 500;
+    padding: 0px;
+}
+
+@media (max-width:767px){
+    .displayFLexCls{
+        display: block;
+    }
+}
